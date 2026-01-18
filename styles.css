@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* default font size */
+}
+
+body {
+  font-family: "Open Sans", sans-serif; /* to fit the nutrients aesthetic */
+}
+
+.label {
+  border: 2px solid black;
+  width: 270px; /* width of the whole label */
+  margin: 20px auto; /* to center the label */
+  padding: 0 7px;
+}
+
+header h1 {
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider {
+  border-bottom: 1px solid #888989; /* to add a divider after each p */
+  margin: 2px 0; /* to leave some breathing room */
+}
+
+.bold {
+  font-weight: 800; /* to add bold to all important highlighted words */
+}
+
+.large {
+  height: 10px;
+}
+
+.large,
+.medium {
+  background-color: black;
+  border: 0; /* to remove the default border */
+}
+
+.medium {
+  height: 5px;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
+
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.calories-info h2 {
+  margin: 0;
+}
+
+.left-container p {
+  margin: -5px -2px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.calories-info span {
+  margin: -7px -2px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.double-indent {
+  margin-left: 2em;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989; /* so all p have the bottom border except those with .no-divider */
+}
+
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+}
